@@ -15,9 +15,9 @@ const Paragraph = {
 
 const ContentLandingHero = () => {
   return (
-    <div className="flex flex-col w-full h-screen items-center justify-center">
+    <div className="flex flex-col w-full h-screen items-center justify-center p-0">
       <div className="flex flex-col w-full lg:w-[50%] h-auto items-start lg:items-center justify-center">
-        <button className="bg-[#F4F4F4]/5 transition-all hover:bg-[#F4F4F4]/10 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
+        <button className="bg-[#F4F4F4]/5 ring-1 ring-[#F4F4F4]/10 transition-all hover:bg-[#F4F4F4]/10 hover:ring-[#F4F4F4]/15 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
           <Image src={Icon.Notification} width="16" height="16" />
           <p className="text-[#F4F4F4] font-medium text-sm text-start lg:text-center tracking-tight leading-relaxed mt-0">
             {Paragraph.Notification}
