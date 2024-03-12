@@ -1,11 +1,12 @@
 import React from "react";
 
 const {
-  default: ContentLandingHero,
-} = require("@/components/contents/landing/hero");
-const {
   default: NavigationNavbar,
 } = require("@/components/navigations/navbar");
+const { default: LandingHero } = require("@/components/contents/landing/hero");
+const {
+  default: LandingProfile,
+} = require("@/components/contents/landing/profile");
 
 const LayoutLanding = () => {
   return (
@@ -14,7 +15,8 @@ const LayoutLanding = () => {
         <NavigationNavbar />
       </div>
       <div className="relative top-auto w-full px-8 lg:px-32">
-        <ContentLandingHero />
+        <LandingHero />
+        <LandingProfile />
       </div>
     </div>
   );

@@ -18,11 +18,13 @@ const NavigationContentExpansion: React.FC<ContentExpansion> = ({
   return (
     <div className="bg-[#0C0C0C] hidden lg:flex flex-col p-8 z-0 rounded-lg w-[640px] ring-1 ring-[#181818]">
       <div className="flex flex-col w-full h-auto items-start justify-center mt-0">
-        <p className="text-[#F4F4F4] font-medium text-sm lg:text-lg text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-0">
-          Learn More About Me
+        <p className="text-[#F4F4F4] font-medium text-sm text-start tracking-tight leading-relaxed mt-0">
+          My Capabilities and Contributions to the Digital Landscape
         </p>
-        <p className="text-[#F4F4F4]/60 font-medium text-sm text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-0">
-          Learn More About Me
+        <p className="text-[#F4F4F4]/60 font-medium text-xs text-start tracking-tight leading-relaxed mt-2">
+          Each section of the offers a glimpse into my diverse skill set,
+          highlighting my expertise in academia, full-stack development, web
+          design, and component development
         </p>
       </div>
       <div className="grid grid-cols-2 w-full h-auto items-center justify-center gap-8 mt-8">

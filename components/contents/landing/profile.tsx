@@ -17,7 +17,7 @@ const Paragraph = {
     "Ras, an Informatics Engineering student, thrilled to dive into the vibrant realm of technology and software development",
 };
 
-const LandingHero = () => {
+const LandingProfile = () => {
   return (
     <div className="flex flex-col w-full h-screen items-center justify-center p-0">
       <div className="flex flex-col w-full lg:w-[50%] h-auto items-start lg:items-center justify-center">
@@ -34,15 +34,9 @@ const LandingHero = () => {
         <h2 className="text-[#F4F4F4]/60 font-medium text-sm lg:text-lg text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-8">
           {Paragraph.SubHeading}
         </h2>
-        <Image
-          className="fixed right-0 bottom-16 z-0 scale-150 opacity-20"
-          src={Asset.MetricRuler}
-          width={829.41}
-          height={26.07}
-        />
       </div>
     </div>
   );
 };
 
-export default LandingHero;
+export default LandingProfile;
