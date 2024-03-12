@@ -21,7 +21,7 @@ const Icon = {
 
 const LandingHero = () => {
   return (
-    <div className="relative flex flex-col w-full h-auto items-start lg:items-center justify-center p-8 lg:p-32">
+    <div className="relative flex flex-col w-full h-auto items-start lg:items-center justify-center px-8 pt-0 pb-8 lg:p-32">
       <div className="flex flex-col w-full lg:w-[50%] h-auto items-start lg:items-center justify-center p-0">
         <FunctionNonSpecializedButton
           href={"/"}

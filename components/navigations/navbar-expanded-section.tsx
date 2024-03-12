@@ -31,7 +31,7 @@ const NavigationNavbarExpandedSection: React.FC<NavbarExpandedSectionProps> = ({
         onClick={isExpandedHandler}
         className="bg-transparent ring-1 ring-transparent transition-all hover:bg-[#0C0C0C] hover:ring-[#181818] flex flex-row gap-2 items-center justify-between w-full lg:w-auto h-auto rounded-full px-4 py-2"
       >
-        <p className="text-[#F4F4F4] font-medium text-xs text-start tracking-tight leading-relaxed lg:leading-relaxed mt-0">
+        <p className="text-[#F4F4F4] font-medium text-xs text-start tracking-tight leading-relaxed mt-0">
           {title}
         </p>
         <Image
@@ -44,10 +44,10 @@ const NavigationNavbarExpandedSection: React.FC<NavbarExpandedSectionProps> = ({
       {isExpanded && (
         <div className="fixed bottom-0 lg:top-16 bg-[#0C0C0C] ring-1 ring-[#181818] flex flex-col gap-2 items-center w-auto lg:w-[560px] h-auto lg:h-fit z-10 rounded-lg px-4 py-4 mr-8 mb-8 lg:mr-0 lg:m-0">
           <div className="flex flex-col items-start justify-center w-full h-auto p-0 mt-0">
-            <p className="text-[#F4F4F4] font-semibold text-xs text-start tracking-tight leading-relaxed lg:leading-relaxed mt-0">
+            <p className="text-[#F4F4F4] font-semibold text-xs text-start tracking-tight leading-relaxed mt-0">
               Unveil Something
             </p>
-            <p className="text-[#F4F4F4]/60 font-medium text-xs text-start tracking-tight leading-relaxed lg:leading-relaxed mt-2">
+            <p className="text-[#F4F4F4]/60 font-medium text-xs text-start tracking-tight leading-relaxed mt-2">
               Gain a comprehensive understanding of my capabilities and
               contributions
             </p>
