@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const {
   default: NavigationNavbarNonExpandedSection,
@@ -17,6 +17,11 @@ const NavigationNavbarContainer = () => {
   const isExpandedHandler = () => {
     setIsExpanded(!isExpanded);
   };
+
+  useEffect(() => {
+    const isExpandedBreakpoint = window.innerWidth < 1024;
+    setIsExpanded(!isExpandedBreakpoint);
+  }, []);
 
   return (
     <nav className="flex flex-col lg:flex-row gap-2 items-center justify-between w-full h-auto p-8 lg:px-32 lg:py-4">
