@@ -1,10 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-const Asset = {
-  MetricRuler: require("@/shared/assets/metric-ruler-white.svg"),
-};
-
 const Icon = {
   Notification: require("@/shared/icons/bell-ringing-white.svg"),
 };

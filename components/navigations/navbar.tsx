@@ -9,12 +9,19 @@ const {
 
 const NavigationNavbar = () => {
   return (
-    <nav className="bg-[#000000] flex flex-col lg:flex-row gap-2 w-full h-auto items-center justify-between p-0">
-      <div className="flex flex-col lg:flex-row gap-2 items-center justify-start w-full lg:w-auto h-auto">
-        <NavigationNavbarNonExpand name="enhasya" />
+    <nav className="bg-transparent flex flex-col lg:flex-row gap-2 w-full h-auto items-center justify-between p-0">
+      <div className="flex flex-col lg:flex-row gap-2 items-start justify-start w-full lg:w-auto h-auto">
+        <div className="flex flex-row gap-2 items-start lg:items-center justify-between w-full lg:w-auto p-0 mt-0">
+          <NavigationNavbarNonExpand name="enhasya" />
+          <button className="bg-transparent transition-all hover:bg-[#F4F4F4]/5 flex flex-row gap-2 items-center justify-center w-auto h-auto px-4 py-2 rounded-full">
+            <p className="text-[#F4F4F4] font-medium text-sm text-start lg:text-center tracking-tight leading-relaxed mt-0">
+              Expand
+            </p>
+          </button>
+        </div>
         <NavigationNavbarExpand name="More" />
       </div>
-      <div className="flex flex-col lg:flex-row gap-2 items-center justify-start w-full lg:w-auto h-auto">
+      <div className="flex flex-col lg:flex-row gap-2 items-start lg:items-center justify-start w-full lg:w-auto h-auto">
         <NavigationNavbarNonExpand name="Contact" />
         <NavigationNavbarNonExpand name="Partnership" />
       </div>
