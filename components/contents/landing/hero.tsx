@@ -32,14 +32,14 @@ const LandingHero = () => {
           update={"Upcoming Update"}
           title={"Artistry of JSX, TSX is here"}
         />
-        <p className="text-[#F4F4F4] font-semibold text-2xl lg:text-4xl text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-16">
+        <p className="text-[#F4F4F4] font-semibold text-2xl lg:text-4xl text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-8 lg:mt-16">
           React.js & JSX, TSX Next.js Dev., iOS App UI/UX Designer
         </p>
         <p className="text-[#F4F4F4]/60 font-medium text-sm lg:text-lg text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-8">
           Ras, an Informatics Engineering student, privileged to immerse myself
           in the dynamic world of technology and software development
         </p>
-        <div className="flex flex-row flex-wrap gap-4 items-center justify-start lg:justify-center w-full h-auto mt-16">
+        <div className="flex flex-row flex-wrap gap-4 items-center justify-start lg:justify-center w-full h-auto mt-8 lg:mt-16">
           <FunctionSocialNonSpecializedButton
             href={"/"}
             icon={Icon.GitHub}
@@ -63,8 +63,8 @@ const LandingHero = () => {
       <Image
         className="fixed right-0 bottom-0 -rotate-45 scale-150 opacity-20"
         src={Asset.MetricRuler}
-        width="829.41"
-        height="26.07"
+        width="830"
+        height="27"
       />
     </div>
   );

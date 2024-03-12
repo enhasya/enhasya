@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Image from "next/image";
 
 const {
   default: NavigationNavbarNonExpandedSection,
@@ -29,7 +28,7 @@ const NavigationNavbarContainer = () => {
             className="bg-[#0C0C0C] ring-1 ring-[#181818] transition-all hover:bg-[#181818] hover:ring-[#252525] flex lg:hidden flex-row gap-2 items-center justify-center w-auto h-auto rounded-full px-4 py-2"
           >
             <p className="text-[#F4F4F4] font-semibold text-xs text-start tracking-tight leading-relaxed mt-0">
-              Expand
+              {isExpanded ? "Collapse" : "Expand"}
             </p>
           </button>
         </div>
