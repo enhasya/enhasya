@@ -39,6 +39,7 @@ const NavigationNavbarExpandedSection: React.FC<NavbarExpandedSectionProps> = ({
           src={Icon.ChevronDown}
           width="14"
           height="14"
+          alt="image: Icon"
         />
       </button>
       {isExpanded && (
