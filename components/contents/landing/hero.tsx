@@ -37,20 +37,20 @@ const LandingHero = () => {
         <h2 className="text-[#F4F4F4]/60 font-medium text-sm lg:text-lg text-start lg:text-center tracking-tight leading-relaxed lg:leading-relaxed mt-8">
           {Paragraph.SubHeading}
         </h2>
-        <div className="flex flex-row flex-wrap gap-4 items-center justify-center w-full h-auto mt-16">
-          <button className="bg-[#F4F4F4]/5 ring-1 ring-[#F4F4F4]/10 transition-all hover:bg-[#F4F4F4]/10 hover:ring-[#F4F4F4]/15 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
+        <div className="flex flex-row flex-wrap gap-2 items-center justify-center w-full h-auto mt-16">
+          <button className="bg-transparent ring-1 ring-[#F4F4F4]/0 transition-all hover:bg-[#F4F4F4]/5 hover:ring-[#F4F4F4]/10 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
             <Image src={Icon.GitHub} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start lg:text-center tracking-tight leading-relaxed mt-0">
               GitHub
             </p>
           </button>
-          <button className="bg-[#F4F4F4]/5 ring-1 ring-[#F4F4F4]/10 transition-all hover:bg-[#F4F4F4]/10 hover:ring-[#F4F4F4]/15 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
+          <button className="bg-transparent ring-1 ring-[#F4F4F4]/0 transition-all hover:bg-[#F4F4F4]/5 hover:ring-[#F4F4F4]/10 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
             <Image src={Icon.Instagram} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start lg:text-center tracking-tight leading-relaxed mt-0">
               Instagram
             </p>
           </button>
-          <button className="bg-[#F4F4F4]/5 ring-1 ring-[#F4F4F4]/10 transition-all hover:bg-[#F4F4F4]/10 hover:ring-[#F4F4F4]/15 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
+          <button className="bg-transparent ring-1 ring-[#F4F4F4]/0 transition-all hover:bg-[#F4F4F4]/5 hover:ring-[#F4F4F4]/10 flex flex-row gap-2 items-center justify-center w-fit h-auto px-4 py-2 rounded-full">
             <Image src={Icon.LinkedIn} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start lg:text-center tracking-tight leading-relaxed mt-0">
               LinkedIn
