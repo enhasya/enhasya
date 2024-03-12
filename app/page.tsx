@@ -6,8 +6,8 @@ const { default: LayoutLanding } = require("@/components/layouts/landing");
 
 export default function Home() {
   return (
-    <main>
+    <React.Fragment>
       <LayoutLanding />
-    </main>
+    </React.Fragment>
   );
 }
