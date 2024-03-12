@@ -6,7 +6,10 @@ interface ContentExpansion {
 }
 
 const Icon = {
-  Notification: require("@/shared/icons/bell-ringing-white.svg"),
+  Profile: require("@/shared/icons/user-circle-white.svg"),
+  Beu: require("@/shared/icons/picture-in-picture-white.svg"),
+  Compaine: require("@/shared/icons/frame-white.svg"),
+  Componine: require("@/shared/icons/resize-white.svg"),
 };
 
 const NavigationContentExpansion: React.FC<ContentExpansion> = ({
@@ -25,7 +28,7 @@ const NavigationContentExpansion: React.FC<ContentExpansion> = ({
       <div className="grid grid-cols-2 w-full h-auto items-center justify-center gap-8 mt-8">
         <button className="opacity-100 transition-all hover:opacity-60 flex flex-col gap-2 items-start justify-center w-full h-auto">
           <div className="flex flex-row w-full h-auto gap-2 items-center justify-start">
-            <Image src={Icon.Notification} width="16" height="16" />
+            <Image src={Icon.Profile} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start tracking-tight leading-relaxed mt-0">
               Profile
             </p>
@@ -37,7 +40,7 @@ const NavigationContentExpansion: React.FC<ContentExpansion> = ({
         </button>
         <button className="opacity-100 transition-all hover:opacity-60 flex flex-col gap-2 items-start justify-center w-full h-auto">
           <div className="flex flex-row w-full h-auto gap-2 items-center justify-start">
-            <Image src={Icon.Notification} width="16" height="16" />
+            <Image src={Icon.Beu} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start tracking-tight leading-relaxed mt-0">
               Beu
             </p>
@@ -49,7 +52,7 @@ const NavigationContentExpansion: React.FC<ContentExpansion> = ({
         </button>
         <button className="opacity-100 transition-all hover:opacity-60 flex flex-col gap-2 items-start justify-center w-full h-auto">
           <div className="flex flex-row w-full h-auto gap-2 items-center justify-start">
-            <Image src={Icon.Notification} width="16" height="16" />
+            <Image src={Icon.Compaine} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start tracking-tight leading-relaxed mt-0">
               Compaine
             </p>
@@ -61,7 +64,7 @@ const NavigationContentExpansion: React.FC<ContentExpansion> = ({
         </button>
         <button className="opacity-100 transition-all hover:opacity-60 flex flex-col gap-2 items-start justify-center w-full h-auto">
           <div className="flex flex-row w-full h-auto gap-2 items-center justify-start">
-            <Image src={Icon.Notification} width="16" height="16" />
+            <Image src={Icon.Componine} width="16" height="16" />
             <p className="text-[#F4F4F4] font-medium text-sm text-start tracking-tight leading-relaxed mt-0">
               Componine
             </p>
