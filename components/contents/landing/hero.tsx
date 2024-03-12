@@ -63,8 +63,9 @@ const LandingHero = () => {
       <Image
         className="fixed right-0 bottom-0 -rotate-45 scale-150 opacity-20"
         src={Asset.MetricRuler}
-        width="830"
-        height="27"
+        width="829.41"
+        height="26.07"
+        alt="image: MetricRuler"
       />
     </div>
   );
