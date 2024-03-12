@@ -16,11 +16,11 @@ const {
 const LayoutLanding = () => {
   return (
     <div className="flex flex-col w-full">
-      <div className="bg-[#000000] fixed top-0 z-10 w-full p-8 lg:px-32 lg:py-4">
+      <div className="bg-[#000000] lg:bg-[#000000]/0 backdrop-blur-lg fixed top-0 z-10 w-full p-8 lg:px-32 lg:py-4">
         <NavigationNavbar />
       </div>
-      <div className="relative top-auto w-full px-8 lg:px-32">
-        <div className="w-full">
+      <div className="relative top-auto lg:top-[70px] w-full px-8 lg:px-32">
+        <div className="w-full gap-0">
           <LandingHero />
           <Image
             className="hidden lg:flex lg:fixed -right-16 bottom-16 z-0 scale-150 -rotate-45 opacity-20"
@@ -29,7 +29,10 @@ const LayoutLanding = () => {
             height={26.07}
           />
         </div>
-        <LandingProfile />
+        <div className="flex flex-col w-full h-auto gap-8 lg:gap-32">
+          <LandingProfile />
+          <LandingProfile />
+        </div>
       </div>
     </div>
   );
