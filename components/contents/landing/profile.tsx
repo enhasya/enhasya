@@ -17,7 +17,7 @@ const LandingProfile = () => {
 
   return (
     <div className="relative flex flex-col w-full h-auto items-start lg:items-center justify-center px-8 pt-0 pb-8 lg:px-32 lg:pt-0 lg:pb-32">
-      <div className="bg-[#0C0C0C] ring-1 ring-[#181818] flex flex-col w-full lg:w-[75%] h-auto items-start justify-center rounded-lg p-8 lg:p-32">
+      <div className="bg-[#0C0C0C] ring-1 ring-[#181818] flex flex-col w-full lg:w-[50%] h-auto items-start justify-center rounded-lg p-8 lg:p-16">
         <div className="flex flex-row flex-wrap gap-4 items-center justify-start w-full h-auto mt-0">
           <FunctionPageScrollButton
             onClick={() => setActiveSession(1)}

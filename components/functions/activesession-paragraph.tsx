@@ -11,10 +11,10 @@ const FunctionActiveSessionParagraph: React.FC<ActiveSessionParagraph> = ({
 }) => {
   return (
     <React.Fragment>
-      <p className="text-[#F4F4F4] font-semibold text-lg lg:text-2xl text-start tracking-tight leading-relaxed lg:leading-relaxed mt-8 lg:mt-16">
+      <p className="text-[#F4F4F4] font-semibold text-lg text-start tracking-tight leading-relaxed lg:leading-relaxed mt-8 lg:mt-16">
         {title}
       </p>
-      <p className="text-[#F4F4F4]/60 font-medium text-sm lg:text-lg text-start tracking-tight leading-relaxed lg:leading-relaxed mt-4">
+      <p className="text-[#F4F4F4]/60 font-medium text-sm text-start tracking-tight leading-relaxed lg:leading-relaxed mt-4">
         {description}
       </p>
     </React.Fragment>
