@@ -41,19 +41,19 @@ const LandingHero = () => {
         </p>
         <div className="flex flex-row flex-wrap gap-4 items-center justify-start lg:justify-center w-full h-auto mt-8 lg:mt-16">
           <FunctionSocialNonSpecializedButton
-            href={"/"}
+            href={"https://github.com/enhasya"}
             icon={Icon.GitHub}
             update={"Upcoming Update"}
             title={"GitHub"}
           />
           <FunctionSocialNonSpecializedButton
-            href={"/"}
+            href={"https://instagram.com/rasxev/"}
             icon={Icon.Instagram}
             update={"Upcoming Update"}
             title={"Instagram"}
           />
           <FunctionSocialNonSpecializedButton
-            href={"/"}
+            href={"https://linkedin.com/in/enhasya/"}
             icon={Icon.LinkedIn}
             update={"Upcoming Update"}
             title={"LinkedIn"}

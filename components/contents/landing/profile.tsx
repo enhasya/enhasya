@@ -7,6 +7,10 @@ const {
 
 const Icon = {
   Book: require("@/shared/icons/book-red.svg"),
+  WorldCode: require("@/shared/icons/world-code-red.svg"),
+  Apple: require("@/shared/icons/brand-apple-red.svg"),
+  TailwindCSS: require("@/shared/icons/brand-tailwind-red.svg"),
+  ClipboardList: require("@/shared/icons/clipboard-list-red.svg"),
 };
 
 const LandingProfile = () => {
@@ -23,22 +27,22 @@ const LandingProfile = () => {
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(2)}
-            icon={Icon.Book}
+            icon={Icon.WorldCode}
             title={"Web Development Enthusiast"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(3)}
-            icon={Icon.Book}
+            icon={Icon.Apple}
             title={"iOS App UI/UX Designer"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(4)}
-            icon={Icon.Book}
+            icon={Icon.TailwindCSS}
             title={"Artistry of Tailwind CSS"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(5)}
-            icon={Icon.Book}
+            icon={Icon.ClipboardList}
             title={"Projects and Contributions"}
           />
         </div>
