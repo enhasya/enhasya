@@ -6,10 +6,7 @@ const {
 } = require("@/components/functions/pagescroll-button");
 
 const Icon = {
-  GitMerge: require("@/shared/icons/git-merge-blue.svg"),
-  GitHub: require("@/shared/icons/brand-github-white.svg"),
-  Instagram: require("@/shared/icons/brand-instagram-white.svg"),
-  LinkedIn: require("@/shared/icons/brand-linkedin-white.svg"),
+  Book: require("@/shared/icons/book-red.svg"),
 };
 
 const LandingProfile = () => {
@@ -21,27 +18,27 @@ const LandingProfile = () => {
         <div className="flex flex-row flex-wrap gap-4 items-center justify-start w-full h-auto mt-0">
           <FunctionPageScrollButton
             onClick={() => setActiveSession(1)}
-            icon={Icon.GitMerge}
+            icon={Icon.Book}
             title={"Academic Pursuits"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(2)}
-            icon={Icon.GitMerge}
+            icon={Icon.Book}
             title={"Web Development Enthusiast"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(3)}
-            icon={Icon.GitMerge}
+            icon={Icon.Book}
             title={"iOS App UI/UX Designer"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(4)}
-            icon={Icon.GitMerge}
+            icon={Icon.Book}
             title={"Artistry of Tailwind CSS"}
           />
           <FunctionPageScrollButton
             onClick={() => setActiveSession(5)}
-            icon={Icon.GitMerge}
+            icon={Icon.Book}
             title={"Projects and Contributions"}
           />
         </div>
