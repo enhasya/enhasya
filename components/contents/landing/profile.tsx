@@ -1,9 +1,11 @@
-import FunctionActiveSessionParagraph from "@/components/functions/activesession-paragraph";
 import React, { useState } from "react";
 
 const {
   default: FunctionPageScrollButton,
 } = require("@/components/functions/pagescroll-button");
+const {
+  default: FunctionActiveSessionParagraph,
+} = require("@/components/functions/activesession-paragraph");
 
 const Icon = {
   Book: require("@/shared/icons/book-red.svg"),
