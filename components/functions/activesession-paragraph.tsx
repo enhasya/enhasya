@@ -14,7 +14,7 @@ const FunctionActiveSessionParagraph: React.FC<ActiveSessionParagraph> = ({
       <p className="text-[#F4F4F4] font-semibold text-lg text-start tracking-tight leading-relaxed lg:leading-relaxed mt-0">
         {title}
       </p>
-      <p className="text-[#F4F4F4]/60 font-medium text-sm text-start tracking-tight leading-relaxed lg:leading-relaxed mt-4">
+      <p className="text-[#F4F4F4]/60 font-medium text-sm text-start tracking-tight leading-relaxed lg:leading-relaxed mt-2">
         {description}
       </p>
     </div>
